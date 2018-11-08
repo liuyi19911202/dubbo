@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/caotuan-admin-web/caotuan-admin-web.iml" filepath="$PROJECT_DIR$/caotuan-admin-web/caotuan-admin-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/caotuan-phone-client/caotuan-phone-client.iml" filepath="$PROJECT_DIR$/caotuan-phone-client/caotuan-phone-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/caotuan-test-createdata/caotuan-test-createdata.iml" filepath="$PROJECT_DIR$/caotuan-test-createdata/caotuan-test-createdata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-api/common-api.iml" filepath="$PROJECT_DIR$/common/common-api/common-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-jredis-redis/common-jredis-redis.iml" filepath="$PROJECT_DIR$/common/common-jredis-redis/common-jredis-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-service/common-service.iml" filepath="$PROJECT_DIR$/common/common-service/common-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-springdata-redis/common-springdata-redis.iml" filepath="$PROJECT_DIR$/common/common-springdata-redis/common-springdata-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-upload/common-upload.iml" filepath="$PROJECT_DIR$/common/common-upload/common-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/common/common-utils/common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-web/common-web.iml" filepath="$PROJECT_DIR$/common/common-web/common-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system/system.iml" filepath="$PROJECT_DIR$/system/system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system/system-api/system-api.iml" filepath="$PROJECT_DIR$/system/system-api/system-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system/system-provider/system-provider.iml" filepath="$PROJECT_DIR$/system/system-provider/system-provider.iml" />
+    </modules>
+  </component>
+</project>
