@@ -1,0 +1,16 @@
+spring:
+  # DataSource Config
+  datasource:
+      url: jdbc:mysql://rm-wz92q0rg957vsvo428o.mysql.rds.aliyuncs.com:3306/caotuan?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+      username: root123
+      password: Caotuan2018_
+      driver-class-name: com.mysql.jdbc.Driver
+      type: com.alibaba.druid.pool.DruidDataSource
+  #Using a Mac, 14 and Spring Boot v1.2.2.RELEASE, all you have to do is set:
+  output:
+    ansi:
+      enabled: always
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+server:
+  port: 8123

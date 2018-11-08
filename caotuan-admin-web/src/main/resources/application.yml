@@ -1,0 +1,9 @@
+spring:
+ #Using a Mac, 14 and Spring Boot v1.2.2.RELEASE, all you have to do is set:
+  output:
+    ansi:
+      enabled: always
+  application:
+    name: Caotuan Web Admin
+  profiles:
+    active: @profileActive@

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.ly.system.provider.mapper.ProductPictureMapper">
+
+    <sql id="selectColumns">
+        SELECT
+            a.`id`,
+            a.`product_id`,
+            a.`url`,
+            a.`create_date`,
+            a.`update_date`,
+            a.`del_flag`
+        FROM product_picture a
+    </sql>
+
+    <!-- 插入商品 -->
+    <insert id="insert">
+        INSERT INTO product_picture (
+           `id`,
+           `product_id`,
+           `url`,
+           `del_flag`,
+           `create_date`,
+           `update_date`
+        ) VALUES (
+            #{id},
+            #{productId},
+            #{url},
+            #{delFlag},
+            #{createDate},
+            #{updateDate}
+        )
+    </insert>
+    
+    <!-- 根据商品获取图片信息 -->
+    <select id="findListByProductId" resultType="cn.ly.system.api.entity.ProductPicture">
+        <include refid="selectColumns"/>
+        LEFT JOIN product p ON p.id = a.product_id
+        WHERE a.del_flag = '0'
+        AND a.product_id = #{productId}
+    </select>
+</mapper>

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: caotuan-test-createdata
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: liuyi
+Implementation-Vendor-Id: cn.ly.caotuan.test
+Build-Jdk: 1.8.0_162
+Implementation-URL: http://projects.spring.io/spring-boot/parent/caotu
+ an-test-createdata/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

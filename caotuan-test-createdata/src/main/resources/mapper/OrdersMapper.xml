@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.ly.test.caotuan.dbdata.mapper.OrderMapper">
+    <insert id="addOrder" keyProperty="id"  parameterType="cn.ly.test.caotuan.dbdata.entity.Orders">
+        INSERT INTO orders (
+            id,
+            userid,
+            goodsid,
+            goodsmodelid,
+            amount,
+            state,
+            addressid,
+            createdate,
+            type,
+            couponid,
+            shopid,
+            finalprice,
+            drawingid,
+            couponnumber,
+            response,
+            good_model,
+            sku_number
+        ) VALUES (
+         	#{id},
+            #{userid},
+            #{goodsid},
+            #{goodsmodelid},
+            #{amount},
+            #{state},
+            #{addressid},
+            #{createdate},
+            #{type},
+            #{couponid},
+            #{shopid},
+            #{finalprice},
+            #{drawingid},
+            #{couponnumber},
+            #{response},
+            #{good_model},
+            #{sku_number}
+        )
+    </insert>
+</mapper>

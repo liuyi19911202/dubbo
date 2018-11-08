@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Caotuan Phone Client
+  profiles:
+    active: @profileActive@
